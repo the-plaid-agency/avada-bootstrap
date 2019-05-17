@@ -1,0 +1,451 @@
+/* ------------------------------------------------------------
+-- THE PLAID AGENCY Custom CSS
+-- ------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------
+-- Xeno Layout Helpers
+--
+-- These are css helper classes that can be added on to Avada
+-- elements, mainly used when elements need extra control.
+-- ------------------------------------------------------------ */
+
+
+/* Text Aligment Helpers */
+.x-center {
+	margin: 0 auto;
+}
+.x-center--text {
+	text-align: center;
+}
+
+
+/* Margin Helpers */
+.x-margin-top-0 {
+	margin-top: 0px !important;
+}
+.x-margin-top-10 {
+	margin-top: 10px !important;
+}
+.x-margin-top-20 {
+	margin-top: 20px !important;
+}
+.x-margin-top-40 {
+	margin-top: 40px !important;
+}
+.x-margin-top-60 {
+	margin-top: 60px !important;
+}
+.x-margin-top-80 {
+	margin-top: 80px !important;
+}
+.x-margin-bot-0 {
+	margin-bottom: 0px !important;
+}
+.x-margin-bot-10 {
+	margin-bottom: 10px !important;
+}
+.x-margin-bot-20 {
+	margin-bottom: 20px !important;
+}
+.x-margin-bot-40 {
+	margin-bottom: 40px !important;
+}
+.x-margin-bot-60 {
+	margin-bottom: 60px !important;
+}
+.x-margin-bot-80 {
+	margin-bottom: 80px !important;
+}
+
+
+/* Other Helpers */
+.x-hideme {
+	display: none;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------
+-- General Layout Edits
+--
+-- These are edits to the basic page styling that can't be
+-- controlled within the AVADA settings.
+-- ------------------------------------------------------------ */
+
+
+/* Fixing weird spacing issue on right side of page in Safari */
+body {
+	overflow: hidden;
+}
+
+
+/* Fixing address styling and margins */
+address {
+	font-style: normal;
+	margin-bottom: 20px;
+}
+
+
+/* Setting default and consistant margins for paragraph elements */
+p {
+	margin: 0;
+	margin-bottom: 20px;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+
+
+/* Increasing default table widths to 100% */
+table {
+	width: 100%;
+}
+
+
+/* Removing focus (dotted) lines from inputs */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+
+
+/* ------------------------------------------------------------
+-- AVADA Typography Edits
+--
+-- AVADA only allows so much control when it comes to text
+-- in the Text Block and Title elements. Below, we can set up
+-- more fine-grained control.
+-- ------------------------------------------------------------ */
+
+
+/* Fusion Title overflow fix */
+.fusion-title {
+	overflow: visible;
+}
+
+/* Makes the Fusion Title element all caps. Comment this out if not used. */
+.fusion-title h1,
+.fusion-title h2,
+.fusion-title h3,
+.fusion-title h4,
+.fusion-title h5,
+.fusion-title h6 {
+	text-transform: uppercase;
+}
+
+
+/* Makes Headings all-caps when used in Text Blocks. Comment this out if not used. */
+.fusion-text h1,
+.fusion-text h2,
+.fusion-text h3,
+.fusion-text h4,
+.fusion-text h5,
+.fusion-text h6 {
+	text-transform: uppercase;
+}
+
+
+/* Margin consistency fixes*/
+.fusion-text ol + h1,
+.fusion-text ol + h2,
+.fusion-text ol + h3,
+.fusion-text ol + h4,
+.fusion-text ol + h5,
+.fusion-text ol + h6,
+.fusion-text ul + h1,
+.fusion-text ul + h2,
+.fusion-text ul + h3,
+.fusion-text ul + h4,
+.fusion-text ul + h5,
+.fusion-text ul + h6,
+.fusion-text p + h1,
+.fusion-text p + h2,
+.fusion-text p + h3,
+.fusion-text p + h4,
+.fusion-text p + h5,
+.fusion-text p + h6 {
+	margin-top: 40px;
+}
+
+.fusion-text {
+	margin-bottom: 40px;
+}
+.fusion-text:last-child {
+	margin-bottom: 0;
+}
+
+.post-content *:last-child {
+	margin-bottom: 0;
+}
+
+
+/* Makes Footer Widget titles all caps. Comment this out if not used. */
+.fusion-footer-widget-area h1,
+.fusion-footer-widget-area h2,
+.fusion-footer-widget-area h3,
+.fusion-footer-widget-area h4,
+.fusion-footer-widget-area h5,
+.fusion-footer-widget-area h6 {
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------
+-- AVADA Theme Edits
+--
+-- AVADA only allows so much control when it comes to text
+-- in the Text Block and Title elements. Below, we can set up
+-- more fine-grained control.
+-- ------------------------------------------------------------ */
+
+/* Fusion Navigation */
+.fusion-main-menu a {
+    text-transform: uppercase;
+}
+.fusion-mobile-nav-item a {
+    text-transform: uppercase;
+}
+.fusion-main-menu .sub-menu li a {
+	font-weight: 400 !important;
+}
+.x-no-hover > a {
+	cursor: default;
+}
+
+
+/* Fusion Columns */
+.fusion-column-wrapper>*:nth-last-child(2) {
+	margin-bottom: 0;
+}
+
+
+/* Fusion Slider */
+/* .tfs-slider .slide-content-container .fusion-title-size-one h1 {
+	letter-spacing: 4px;
+}
+.tfs-slider .slide-content-container .fusion-title-size-two h2 {
+	letter-spacing: 4px;
+}
+.tfs-slider .slide-content-container .fusion-title-size-three h3 {
+	letter-spacing: 4px;
+	font-weight: 300;
+} */
+
+
+/* Fusion Blog */
+.single #main {
+	padding-bottom: 80px !important;
+	padding-top: 80px !important;
+}
+
+
+/* Fusion 404 */
+.error404 #main {
+	padding-bottom: 80px !important;
+	padding-top: 80px !important;
+}
+
+
+/* Fusion Search */
+.search #main {
+	padding-bottom: 80px !important;
+	padding-top: 80px !important;
+}
+
+
+/* Fusion Social */
+.fusion-social-links.xeno-social-team  .fusion-social-networks a {
+	font-size: 24px;
+}
+
+
+/* Fusion Button */
+.fusion-button:hover,
+.fusion-button:focus,
+.fusion-button:active {
+	border-color: #f26522 !important;
+}
+
+.xeno-button--white.fusion-button {
+	border-color: #fff !important;
+}
+.xeno-button--white.fusion-button:hover,
+.xeno-button--white.fusion-button:focus,
+.xeno-button--white.fusion-button:active {
+	background-color: #fff !important;
+}
+.xeno-button--white.fusion-button .fusion-button-text {
+	color: #fff !important;
+}
+.xeno-button--white.fusion-button:hover .fusion-button-text,
+.xeno-button--white.fusion-button:focus .fusion-button-text,
+.xeno-button--white.fusion-button:active .fusion-button-text {
+	color: #f26522 !important;
+}
+
+
+/* Fusion Footer */
+.fusion-footer-widget-column {
+	margin-bottom: 40px;
+}
+.widget .fusion-social-networks .fusion-social-networks-wrapper {
+	font-size: 0;
+	margin: 0 -5px;
+}
+.widget .fusion-social-networks .fusion-social-network-icon {
+	margin: 0 5px;
+}
+
+
+/* To Top */
+#toTop {
+	border-radius: 4px !important;
+	bottom: 30px;
+	height: 40px;
+	right: 30px !important;
+	width: 40px;
+}
+#toTop::before {
+	line-height: 40px;
+}
+
+
+
+
+
+/* Plugin Edits
+-- ---------------------------------------- */
+
+/* Ninja Forms */
+.nf-form-cont { /* Outer form wrapper */
+	margin-bottom: -10px;
+}
+.nf-form-content { /* Inner form wrapper */
+	padding: 0 !important;
+	max-width: none !important;
+}
+.nf-form-content input.ninja-forms-field { /* Inputs */
+	/* height: 45px !important; */
+	padding: 11px;
+}
+.nf-form-content textarea.ninja-forms-field { /* Textarea */
+	resize: vertical;
+	transition: none;
+	height: 100px !important;
+}
+.nf-form-content button,
+.nf-form-content input[type=button],
+.nf-form-content input[type=submit] {
+	background: transparent !important;
+	border: 2px solid #f26522 !important;
+	color: #f26522 !important;
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 17px;
+	padding: 13px 29px;
+	text-transform: uppercase;
+	height: auto !important;
+}
+.nf-form-content .list-select-wrap .nf-field-element>div,
+.nf-form-content input:not([type=button]),
+.nf-form-content textarea { /* Form input background colors */
+	background: #fff !important;
+}
+.nf-field-container { /* Margins under text area */
+	margin-bottom: 10px !important;
+}
+.nf-error .nf-error-msg { /* Error message text */
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.nf-error.field-wrap .nf-field-element:after { /* Red ! mark */
+	/* height: 43px !important; */
+}
+.nf-pass.field-wrap .nf-field-element:after { /* Green check mark */
+	right: 11px !important;
+}
+.nf-before-form-content,
+.nf-after-form-content { /* Before & After text */
+	display: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.nf-input-limit { /* Removing margin from top of input limit */
+	margin-top: 0 !important;
+}
+
+
+
+
+
+/* Components
+-- ---------------------------------------- */
+
+.xeno-btn {
+	border-radius: 2px;
+	height: 52px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 52px;
+	padding: 0 32px;
+	text-transform: uppercase;
+}
+.xeno-btn .fas {
+	margin-left: 10px;
+}
+.xeno-btn--white {
+	background-color: #fff;
+	color: #444;
+}
+.xeno-btn--white:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+.xeno-text--intro h1,
+.xeno-text--intro h2,
+.xeno-text--intro h3,
+.xeno-text--intro h4,
+.xeno-text--intro h5,
+.xeno-text--intro h6,
+.xeno-text--intro p {
+	max-width: 750px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.xeno-text--small {
+	font-size: 0.8em;
+}
+
+
+
+
+
+/* Individual Page Edits
+-- ---------------------------------------- */
+
+/* Example Page */
+.example-page {
+
+}

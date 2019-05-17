@@ -6,11 +6,16 @@
 
 
 
+
+
 /* ------------------------------------------------------------
 -- Xeno Layout Helpers
 --
 -- These are css helper classes that can be added on to Avada
 -- elements, mainly used when elements need extra control.
+--
+-- All classes here should be prefixed with ".x-" to avoid
+-- conflicts with other plugins.
 -- ------------------------------------------------------------ */
 
 
@@ -62,10 +67,32 @@
 }
 
 
+/* Intro Text Helper - creates text blocks of smaller width. Good for CTAs */
+.x-text--intro h1,
+.x-text--intro h2,
+.x-text--intro h3,
+.x-text--intro h4,
+.x-text--intro h5,
+.x-text--intro h6,
+.x-text--intro p {
+	max-width: 750px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+
+/* Small Text Helper - Creates smaller text (80% of whatever element it is applied to). */
+.x-text--small {
+	font-size: 0.8em;
+}
+
+
 /* Other Helpers */
 .x-hideme {
 	display: none;
 }
+
+
 
 
 
@@ -114,8 +141,10 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+	outline: none;
 }
+
+
 
 
 
@@ -157,7 +186,7 @@ button:focus {
 }
 
 
-/* Margin consistency fixes*/
+/* Margin consistency fixes */
 .fusion-text ol + h1,
 .fusion-text ol + h2,
 .fusion-text ol + h3,
@@ -186,6 +215,8 @@ button:focus {
 	margin-bottom: 0;
 }
 
+
+/* Removing bottom margin from all last elements in post-content elements. */
 .post-content *:last-child {
 	margin-bottom: 0;
 }
@@ -206,6 +237,8 @@ button:focus {
 
 
 
+
+
 /* ------------------------------------------------------------
 -- AVADA Theme Edits
 --
@@ -214,55 +247,47 @@ button:focus {
 -- more fine-grained control.
 -- ------------------------------------------------------------ */
 
+
 /* Fusion Navigation */
 .fusion-main-menu a {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .fusion-mobile-nav-item a {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .fusion-main-menu .sub-menu li a {
 	font-weight: 400 !important;
 }
-.x-no-hover > a {
-	cursor: default;
-}
 
 
 /* Fusion Columns */
-.fusion-column-wrapper>*:nth-last-child(2) {
+.fusion-column-wrapper > *:nth-last-child(2) {
 	margin-bottom: 0;
 }
 
 
 /* Fusion Slider */
-/* .tfs-slider .slide-content-container .fusion-title-size-one h1 {
-	letter-spacing: 4px;
+/*
+.tfs-slider {
 }
-.tfs-slider .slide-content-container .fusion-title-size-two h2 {
-	letter-spacing: 4px;
-}
-.tfs-slider .slide-content-container .fusion-title-size-three h3 {
-	letter-spacing: 4px;
-	font-weight: 300;
-} */
+*/
 
 
-/* Fusion Blog */
+/* Fusion Blog Page Padding */
 .single #main {
 	padding-bottom: 80px !important;
 	padding-top: 80px !important;
 }
 
 
-/* Fusion 404 */
+/* Fusion 404 Page Padding */
 .error404 #main {
 	padding-bottom: 80px !important;
 	padding-top: 80px !important;
 }
 
 
-/* Fusion Search */
+/* Fusion Search Page Padding */
 .search #main {
 	padding-bottom: 80px !important;
 	padding-top: 80px !important;
@@ -282,6 +307,8 @@ button:focus {
 	border-color: #f26522 !important;
 }
 
+
+/* Fusion Button - Example Classes - Very often, we'll need alternate colors of buttons */
 .xeno-button--white.fusion-button {
 	border-color: #fff !important;
 }
@@ -329,8 +356,16 @@ button:focus {
 
 
 
-/* Plugin Edits
--- ---------------------------------------- */
+
+
+
+/* ------------------------------------------------------------
+-- Plugin Edits
+--
+-- All edits to various installed plugins should go under here.
+-- We've included some commonly used plugin defaults.
+-- ------------------------------------------------------------ */
+
 
 /* Ninja Forms */
 .nf-form-cont { /* Outer form wrapper */
@@ -397,9 +432,21 @@ button:focus {
 
 
 
-/* Components
--- ---------------------------------------- */
 
+
+
+/* ------------------------------------------------------------
+-- Components CSS
+--
+-- This is the CSS that is used for all custom UI elements that
+-- are not included in any theme, plugin, etc.
+--
+-- All classes here should be prefixed with ".xeno-" to avoid
+-- conflicts with other plugins.
+-- ------------------------------------------------------------ */
+
+
+/* Xeno Button - Emulates the fusion button element */
 .xeno-btn {
 	border-radius: 2px;
 	height: 52px;
@@ -422,30 +469,20 @@ button:focus {
 	color: #fff;
 }
 
-.xeno-text--intro h1,
-.xeno-text--intro h2,
-.xeno-text--intro h3,
-.xeno-text--intro h4,
-.xeno-text--intro h5,
-.xeno-text--intro h6,
-.xeno-text--intro p {
-	max-width: 750px;
-	margin-left: auto !important;
-	margin-right: auto !important;
-}
-
-.xeno-text--small {
-	font-size: 0.8em;
-}
 
 
 
 
 
-/* Individual Page Edits
--- ---------------------------------------- */
+/* ------------------------------------------------------------
+-- Individual Page CSS
+--
+-- In Wordpress, it is possible to target an entire page with
+-- the auto-generated CSS classes added to the body tags.
+--
+-- Use this section to target elements for specific pages.
+-- ------------------------------------------------------------ */
 
 /* Example Page */
-.example-page {
-
+.page.page-id-2 {
 }

@@ -390,7 +390,7 @@ button:focus {
 	background: transparent !important;
 	border: 2px solid #f26522 !important;
 	color: #f26522 !important;
-	font-family: 'Lato';
+	font-family: 'Lato', inherit;
 	font-weight: 700;
 	font-size: 14px;
 	letter-spacing: 1px;

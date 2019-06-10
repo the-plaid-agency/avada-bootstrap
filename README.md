@@ -64,5 +64,11 @@ Now we'll begin setting up a clean slate for AVADA.
 
 Now, AVADA should be be good to start developing! Please refer to the Best Practices guide when developing the website.
 
-
 ## Add Required plugins
+
+Yay! AVADA is installed. Amazing. Now, here is a list of plugins you'll want to install:
+
+- [Wordpress Native PHP Sessions](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
+- [Pantheon Advanced Page Cache](https://wordpress.org/plugins/pantheon-advanced-page-cache/)
+- [WordPress Easy SMTP](https://wordpress.org/plugins/wp-easy-smtp/)

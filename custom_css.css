@@ -87,6 +87,24 @@
 }
 
 
+/* Image Helpers */
+.x-img-mw-100 {
+	max-width: 100px;
+}
+.x-img-mw-200 {
+	max-width: 200px;
+}
+.x-img-mw-300 {
+	max-width: 300px;
+}
+.x-img-mw-400 {
+	max-width: 400px;
+}
+.x-img-mw-500 {
+	max-width: 500px;
+}
+
+
 /* Other Helpers */
 .x-hideme {
 	display: none;

@@ -8,6 +8,7 @@
 
 
 
+
 /* ------------------------------------------------------------
 -- Xeno Layout Helpers
 --
@@ -111,6 +112,12 @@
 }
 
 
+/* Image Helpers */
+.x-img--100 {
+  max-width: 100px;
+}
+
+
 
 
 
@@ -161,6 +168,7 @@ textarea:focus,
 button:focus {
 	outline: none;
 }
+
 
 
 
@@ -486,6 +494,8 @@ button:focus {
 	background-color: #444;
 	color: #fff;
 }
+
+
 
 
 

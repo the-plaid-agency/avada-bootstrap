@@ -108,7 +108,7 @@
 
 /* Other Helpers */
 .x-hideme {
-	display: none;
+	display: none !important;
 }
 
 

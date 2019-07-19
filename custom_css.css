@@ -9,6 +9,8 @@
 
 
 
+
+
 /* ------------------------------------------------------------
 -- Xeno Layout Helpers
 --
@@ -124,6 +126,8 @@
 
 
 
+
+
 /* ------------------------------------------------------------
 -- General Layout Edits
 --
@@ -168,6 +172,14 @@ textarea:focus,
 button:focus {
 	outline: none;
 }
+
+
+/* Removing Microsoft Edge autoclear from inputs */
+input::-ms-clear {
+	display: none;
+}
+
+
 
 
 
@@ -257,6 +269,8 @@ button:focus {
 .fusion-footer-widget-area h6 {
 	text-transform: uppercase;
 }
+
+
 
 
 
@@ -385,6 +399,8 @@ button:focus {
 
 
 
+
+
 /* ------------------------------------------------------------
 -- Plugin Edits
 --
@@ -461,6 +477,8 @@ button:focus {
 
 
 
+
+
 /* ------------------------------------------------------------
 -- Components CSS
 --
@@ -494,6 +512,8 @@ button:focus {
 	background-color: #444;
 	color: #fff;
 }
+
+
 
 
 

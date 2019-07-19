@@ -180,6 +180,15 @@ input::-ms-clear {
 }
 
 
+/* Removing Webkit button styling */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+
 
 
 

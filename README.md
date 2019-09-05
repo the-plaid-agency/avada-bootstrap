@@ -72,4 +72,4 @@ Yay! AVADA is installed. Amazing. Now, here is a list of plugins you'll want to 
 - [Wordpress Native PHP Sessions](https://wordpress.org/plugins/wp-native-php-sessions/)
 - [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
 - [Pantheon Advanced Page Cache](https://wordpress.org/plugins/pantheon-advanced-page-cache/)
-- [WordPress Easy SMTP](https://wordpress.org/plugins/wp-easy-smtp/)
+- [Sendgrid](https://wordpress.org/plugins/sendgrid-email-delivery-simplified/)

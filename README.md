@@ -32,7 +32,7 @@ Now that Wordpress is installed, login to the admin dashboard:
 
 1. Right away, go to the `Plugins` page.
 2. Delete `Akismet` and `Hello Dolly`. Completely useless, I wish they wouldn't add them by default.
-3. Next, go to `Appearance > Themes` and deleted all Wordpress themes except for the default one (currently Twenty Ninetween).
+3. Next, go to `Appearance > Themes` and delete all Wordpress themes except for the default one (currently Twenty Ninetween).
 
 Now, Wordpress has a clean slate and is ready for you to begin configuring it.
 
@@ -53,7 +53,7 @@ Okay, now we have AVADA ready to go.
 Now we'll begin setting up a clean slate for AVADA.
 
 1. Once AVADA is enabled, you'll need to install `Fusion Core` and `Fusion Builder`. You'll see a large error message at the top of your screen unitl you install these.
-2. Go to `Avada > Fusion Patcher` and click `Apply Patch`from top to bottom.
+2. Go to `Avada > Fusion Patcher` and click `Apply Patch` from top to bottom.
 3. Now, go to `Avada > Registration` and follow the instructions to set up an API key for the site. Make sure you set the site name on Envato as the same name for the site. So in our example above, it would be `tpa-sitename`.
 4. Now, go to `Fusion Builder > Settings` and enable Fusion Builder Auto Activation.
 5. Scroll down to `Post Types` and uncheck `Posts`.
@@ -73,3 +73,4 @@ Yay! AVADA is installed. Amazing. Now, here is a list of plugins you'll want to 
 - [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
 - [Pantheon Advanced Page Cache](https://wordpress.org/plugins/pantheon-advanced-page-cache/)
 - [Sendgrid](https://wordpress.org/plugins/sendgrid-email-delivery-simplified/)
+- [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)

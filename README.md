@@ -12,7 +12,7 @@ First, you will need to create a new site on Pantheon.
 3. For the site name, always prefix the name with a prefix (usually 2-3 characters) that summarizes the organization. So for example, for a new website that belongs to THE PLAID AGENCY, a fitting name might be `tpa-sitename`. Or `plaid-sitename`. This is important so if we have multiple websites for a single organization, which is very common, they will be organized togeter on the dashboard and in filesystems.
 4. Choose `THE PLAID AGENCY` as the organization.
 5. Choose `Wordpress` as the CMS.
-6. Hit Deploy!
+6. Click Deploy!
 
 ## Installing Wordpress
 
@@ -53,14 +53,15 @@ Okay, now we have AVADA ready to go.
 Now we'll begin setting up a clean slate for AVADA.
 
 1. Once AVADA is enabled, you'll need to install `Fusion Core` and `Fusion Builder`. You'll see a large error message at the top of your screen unitl you install these.
-2. Go to `Avada > Fusion Patcher` and click `Apply Patch` from top to bottom.
+2. Go to `Avada > Fusion Patcher` and click `Apply Patch` for each patch from top to bottom. Wait for the page to completely finish loading before clicking the next one.
 3. Now, go to `Avada > Registration` and follow the instructions to set up an API key for the site. Make sure you set the site name on Envato as the same name for the site. So in our example above, it would be `tpa-sitename`.
-4. Now, go to `Fusion Builder > Settings` and enable Fusion Builder Auto Activation.
-5. Scroll down to `Post Types` and uncheck `Posts`.
-6. Save the page settings.
-7. Go to `Avada > Theme Options` and scroll down to `Import/Export`. You'll want to use the `Import from URL` button to import the latest `fusion_options_backup_DD-MM-YYYY.json` settings file. In order to get the raw URL, click the file on Github and then click the `Raw` button. This will link you directly to the file. Now, you can copy the URL of this page into the box in Avada.
-8. Now, go to `Custom CSS` and copy/paste the raw code from `custom_css.css` in this repo. You can access the raw code in the same way you found it in the previous step.
-9. Hit save to update all the settings.
+4. Next, go to `Avada > Theme Options` and scroll down to `Import/Export`. You'll want to use the `Import from URL` button to import the latest `fusion_options_backup_DD-MM-YYYY.json` settings file. In order to get the URL, click the file on Github and then click the `Raw` button. This will link you directly to the file. Now, you can copy the URL of this page into the box in AVADA.
+5. Click `Save Changes` to update all the settings.
+6. Now, go to `Fusion Builder > Settings`.
+7. Set `Fusion Builder Auto Activation` to `On`.
+5. Scroll down to `Post Types` and uncheck `Post`.
+9. Scroll down to `Import Fusion Builder Content`. Click `Browse` and select the `fusion_template-plaidtester.WordPress.YYYY-MM-DD.xml` file from this repo. You'll need to download this file, as there is no option to import it from a URL. Once the file is selected, click `Import`.
+10. Scroll down and click `Save Settings`.
 
 Now, AVADA should be be good to start developing! Please refer to the Best Practices guide when developing the website.
 

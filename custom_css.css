@@ -325,7 +325,7 @@ button,
 
 
 /* Fusion Social */
-.fusion-social-links.xeno-social-team  .fusion-social-networks a {
+.fusion-social-links.x-social-team  .fusion-social-networks a {
 	font-size: 24px;
 }
 
@@ -339,20 +339,20 @@ button,
 
 
 /* Fusion Button - Example Classes - Very often, we'll need alternate colors of buttons */
-.xeno-button--white.fusion-button {
+.x-button--white.fusion-button {
 	border-color: #fff !important;
 }
-.xeno-button--white.fusion-button:hover,
-.xeno-button--white.fusion-button:focus,
-.xeno-button--white.fusion-button:active {
+.x-button--white.fusion-button:hover,
+.x-button--white.fusion-button:focus,
+.x-button--white.fusion-button:active {
 	background-color: #fff !important;
 }
-.xeno-button--white.fusion-button .fusion-button-text {
+.x-button--white.fusion-button .fusion-button-text {
 	color: #fff !important;
 }
-.xeno-button--white.fusion-button:hover .fusion-button-text,
-.xeno-button--white.fusion-button:focus .fusion-button-text,
-.xeno-button--white.fusion-button:active .fusion-button-text {
+.x-button--white.fusion-button:hover .fusion-button-text,
+.x-button--white.fusion-button:focus .fusion-button-text,
+.x-button--white.fusion-button:active .fusion-button-text {
 	color: #f26522 !important;
 }
 
@@ -475,13 +475,13 @@ button,
 -- This is the CSS that is used for all custom UI elements that
 -- are not included in any theme, plugin, etc.
 --
--- All classes here should be prefixed with ".xeno-" to avoid
+-- All classes here should be prefixed with ".x-" to avoid
 -- conflicts with other plugins.
 -- ------------------------------------------------------------ */
 
 
 /* Xeno Button - Emulates the fusion button element */
-.xeno-btn {
+.x-btn {
 	border-radius: 2px;
 	height: 52px;
 	font-size: 18px;
@@ -491,14 +491,14 @@ button,
 	padding: 0 32px;
 	text-transform: uppercase;
 }
-.xeno-btn .fas {
+.x-btn .fas {
 	margin-left: 10px;
 }
-.xeno-btn--white {
+.x-btn--white {
 	background-color: #fff;
 	color: #444;
 }
-.xeno-btn--white:hover {
+.x-btn--white:hover {
 	background-color: #444;
 	color: #fff;
 }

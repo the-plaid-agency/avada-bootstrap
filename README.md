@@ -75,4 +75,5 @@ Yay! AVADA is installed. Amazing. Now, here is a list of plugins you'll want to 
 - [Pantheon HUD](https://wordpress.org/plugins/pantheon-hud/)
 - [Sendgrid](https://wordpress.org/plugins/sendgrid-email-delivery-simplified/)
 - [Wordpress Native PHP Sessions](https://wordpress.org/plugins/wp-native-php-sessions/)
+- [WP-CFM](https://wordpress.org/plugins/wp-cfm/)
 - [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)

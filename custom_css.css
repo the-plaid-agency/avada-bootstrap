@@ -472,6 +472,23 @@ button,
 .nf-input-limit { /* Removing margin from top of input limit */
 	margin-top: 0 !important;
 }
+.pika-single { /* Date popup. Doesn't appear it form is in a modal without this */
+	z-index: 100000 !important;
+}
+/* Edge */
+/* ::-webkit-input-placeholder {
+  color: #fff !important;
+	opacity: 1 !important;
+} */
+/* Internet Explorer 10-11 */
+/* :-ms-input-placeholder {
+  color: #fff !important;
+	opacity: 1 !important;
+} */
+/* ::placeholder {
+  color: #fff !important;
+	opacity: 1 !important;
+} */
 
 
 

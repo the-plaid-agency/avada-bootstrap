@@ -330,14 +330,6 @@ button,
 }
 
 
-/* Fusion Button */
-.fusion-button:hover,
-.fusion-button:focus,
-.fusion-button:active {
-	border-color: #f26522 !important;
-}
-
-
 /* Fusion Button - Example Classes - Very often, we'll need alternate colors of buttons */
 .x-button--white.fusion-button {
 	border-color: #fff !important;

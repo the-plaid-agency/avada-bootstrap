@@ -70,6 +70,7 @@ Now, AVADA should be be good to start developing! Please refer to the Best Pract
 Yay! AVADA is installed. Amazing. Now, here is a list of plugins you'll want to install:
 
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
+- [Duplicate Page](https://wordpress.org/plugins/duplicate-page/)
 - [Ninja Forms](https://wordpress.org/plugins/ninja-forms/)
 - [Pantheon Advanced Page Cache](https://wordpress.org/plugins/pantheon-advanced-page-cache/)
 - [Pantheon HUD](https://wordpress.org/plugins/pantheon-hud/)

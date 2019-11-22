@@ -75,6 +75,23 @@
 }
 
 
+/* Text Weight Helper - AVADA doesn't let us easily change the font-weight of text */
+.x-text--weight-300,
+.x-text--weight-300 > * { font-weight: 300 !important; }
+.x-text--weight-400,
+.x-text--weight-400 > * { font-weight: 400 !important; }
+.x-text--weight-500,
+.x-text--weight-500 > * { font-weight: 500 !important; }
+.x-text--weight-600,
+.x-text--weight-600 > * { font-weight: 600 !important; }
+.x-text--weight-700,
+.x-text--weight-700 > * { font-weight: 700 !important; }
+.x-text--weight-800,
+.x-text--weight-800 > * { font-weight: 800 !important; }
+.x-text--weight-900,
+.x-text--weight-900 > * { font-weight: 900 !important; }
+
+
 /* Small Text Helper - Creates smaller text (80% of whatever element it is applied to). */
 .x-text--small {
 	font-size: 0.8em;

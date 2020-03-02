@@ -479,6 +479,7 @@ button,
 	position: absolute;
 	top: 100%;
 	left: 0;
+	line-height: 20px;
 }
 .nf-error.field-wrap .nf-field-element:after { /* Red ! mark */
 	z-index: 10;
